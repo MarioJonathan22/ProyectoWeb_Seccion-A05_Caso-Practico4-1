@@ -1,0 +1,51 @@
+/*estilo solamente para el formulario*/
+form
+{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    width: 80%;
+}
+
+form input[type="text"], form input[type="email"], form textarea
+{
+    font-family: "lato";
+    font-weight: 100;
+    color: rgb(0, 110, 255);
+    margin: 2px 0;
+    padding: 5px 5px;
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 10px;
+    background: rgb(244, 242, 242);
+    font-size: 16px;
+}
+
+form textarea
+{
+    height: 100px;
+    max-height: 100px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+form .boton
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.formulario .derecha input[type="submit"]
+{
+    display: block;
+    margin: 10px 0;
+    padding: 5px 10px;
+    background: rgb(124, 230, 249);
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form .boton input[type="submit"]:hover
+{
+    background: #15a4fa;
+    color: #fff;
+}

@@ -1,0 +1,43 @@
+section.acerca
+{
+    margin: 60px 0;
+}
+
+.acerca .contenedor
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+
+
+}
+
+.acerca .columna
+{
+    width: 30%;
+    text-align: center;
+    margin: auto;
+
+}
+
+.acerca .columna .acerca-parrafo
+{
+    margin: 20px 0;
+    font-weight: 600;
+    color: rgb(181, 181, 181);
+    font-family: "lato";
+}
+
+.acerca .columna .historia-parrafo
+{
+    text-align: left;
+    color: rgb(181, 181, 181);
+    font-family: "lato";
+    font-weight: 600;
+}
+
+.acerca .imagen-parrafo, .acerca .video-parrafo
+{
+    border-radius: 10px;
+}
